@@ -5,14 +5,15 @@ int main(void)
 	// 변수 : 문자형 1개, 정수형 2개
 	// 나눗셈 -> 특수처리
 
-	char character;
+
 	int num1, num2;
-	printf("연산자를 입력하세요. (+, -, *, /) : ");
-	scanf_s("%c", &character, 1); // character형변수, n = 문자를 n자리 받겠다.
+	char character;
 	printf("좌항을 입력하세요. : ");
 	scanf_s("%d", &num1);
 	printf("우항을 입력하세요. : ");
 	scanf_s("%d", &num2);
+	printf("연산자를 입력하세요. (+, -, *, /) : ");
+	scanf_s(" %c", &character, 1); // character형변수, n = 문자를 n자리 받겠다.
 
 	switch (character) {
 	case '+': printf("%d + %d = %d", num1, num2, num1 + num2);
