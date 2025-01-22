@@ -22,10 +22,10 @@ int main(void)
 	printf("%u \n", max_num);
 
 	int num1 = 1;
-	printf("%d\n", sizeof(num1));
+	printf("%d\n", num1, sizeof(num1));
 	// sizeof -> int형은 4바이트이므로 4를 출력
-	printf("%d \n", sizeof(100));
-	printf("%d \n", sizeof(3.14));
+	printf("%d \n", 100, sizeof(100));
+	printf("%d \n", 3.14, sizeof(3.14));
 	// sizeof(3.14) -> 8을 출력 -> sizeof는 알아서 자료형의 바이트를 찾아줌
 	printf("%d \n", sizeof(float));
 	printf("%d \n", sizeof(short));
