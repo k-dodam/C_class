@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\Day_13">
       <UniqueIdentifier>{2ad2e1e1-81fc-490b-b564-891db0b71138}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Day_14">
+      <UniqueIdentifier>{53e17cd6-f8d5-41ce-8a95-e0bc3e509457}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hello.c">
@@ -212,6 +215,15 @@
     </ClCompile>
     <ClCompile Include="곱셈프로그램.c">
       <Filter>소스 파일\Day_13</Filter>
+    </ClCompile>
+    <ClCompile Include="지역변수전역변수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터와함수의관계.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="다중포인터.c">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
